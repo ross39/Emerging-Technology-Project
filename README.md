@@ -48,7 +48,8 @@ Anaconda ======> https://www.anaconda.com/ </br>
 ### How to Run Notebooks
 You should have jupyter notebooks installed. Easiest way to do this is to download and run anaconda on your machine that way you can get jupyter notebooks plus a ton of other goodies! Alternatively you can use gitpod and just install the requirments from the command line using
 
-==> insert command to install here
+  conda install --yes --file requirements.txt
+
 
 
 
