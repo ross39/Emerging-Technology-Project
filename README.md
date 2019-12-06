@@ -12,7 +12,7 @@ Welcome to my project for Emerging Technologies. The goal of this project is to 
 ## Sections
 
 ### Part 1. 
-This is the web app. All code for the web app is in the folder labelled 'MNISTCode'. Everything is there to run the project locally. Also I hope to host this on heroku. ===> Link
+This is the web app. All code for the web app is in the folder labelled 'MNISTCode'. Everything is there to run the project locally. Also I hope to host this on heroku. ===> Link(HOST ON GITHUB)
 
 ### Part 2. 
 
