@@ -26,12 +26,24 @@ Initial exploration of the MNIST dataset and training the model
 
 ### Part 4. 
 
+Further exploration and explaining how neural networks work and exploring the model in more depth. I didn't want to create a god notebook. 
+
 ### Part 5. 
+
+This is a notebook dedicated to the numpy package for python
 
 ## Getting Started
 
+To get started just clone this repo or you can use gitpod to load the project in an online virtual enviroment</br>
+LINK TO GITPOD =====> https://www.gitpod.io/.
+
+gitpod is really neat and I'd recommne checking this out.
 
 ### Prerequisites
+
+Jupyter notebooks =====> https://jupyter.org/ </br>
+Anaconda ======> https://www.anaconda.com/ </br>
+:warning: You can install jupyter notebooks through anaconda so check out anaconda first!
 
 ### How to Run Notebooks
 You should have jupyter notebooks installed. Easiest way to do this is to download and run anaconda on your machine that way you can get jupyter notebooks plus a ton of other goodies! Alternatively you can use gitpod and just install the requirments from the command line using
@@ -47,8 +59,8 @@ You should have jupyter notebooks installed. Easiest way to do this is to downlo
 
 
 ## Built With
-Python
-Student sweat and tears
+Python </br>
+Student sweat and tears </br>
 inspiration from kaggle, r/datascience, r/machinelearning
 
 
