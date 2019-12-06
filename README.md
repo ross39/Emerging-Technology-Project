@@ -79,7 +79,7 @@ For a beginner tutorial on jupyter notebooks ====> https://www.youtube.com/watch
 ## Built With
 Python </br>
 Student sweat and tears </br>
-Insiration from kaggle, r/datascience, r/machinelearning
+Insiration from kaggle, r/datascience, r/machinelearning </br>
 Enviroment: MacOs(10.14.6), python 3.7(anaconda), jupyter notebooks, Vim(spacevim, I'd highly recommend). The exact configuration of jupyter notebooks I'm using is. This output of jupyter --version is below
 
 
