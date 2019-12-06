@@ -14,8 +14,6 @@ Welcome to my project for Emerging Technologies. The goal of this project is to 
 ### Part 1. 
 This is the web app. All code for the web app is in the folder labelled 'MNISTCode'. Everything is there to run the project locally. Also I hope to host this on heroku. ===> Link
 
-
-
 ### Part 2. 
 
 This is the IRIS dataset. Not necessarily part of the project but it's pretty cool so included it in
@@ -69,11 +67,34 @@ To run the MNIST webapp you must run the app.py file which is the entry point fo
 
 Please note that I personally use a Unix system(Mac) and this is the command I use. This will work on any Unix system(Linux, Mac). For Windows users please refer to the flask documentation.
 
+#### Running the jupyter notebooks
+For anyone reading this not familiar with jupyter notebooks, jupyter notebooks will not run like regular python files/scripts. You will need jupyter notebooks installed on your system. To run the notebooks you can just type the command below in the directory of your files or type the command anywhere and just use the gui to move to the files.
+        
+        jupyter notebook 
+        
+You can then view and run the notebooks in the browser. </br>
+For a beginner tutorial on jupyter notebooks ====> https://www.youtube.com/watch?v=HW29067qVWk
+
 
 ## Built With
 Python </br>
 Student sweat and tears </br>
-inspiration from kaggle, r/datascience, r/machinelearning
+Insiration from kaggle, r/datascience, r/machinelearning
+Enviroment: MacOs(10.14.6), python 3.7(anaconda), jupyter notebooks, Vim(spacevim, I'd highly recommend). The exact configuration of jupyter notebooks I'm using is. This output of jupyter --version is below
+
+
+        jupyter core     : 4.5.0
+        jupyter-notebook : 6.0.0
+        qtconsole        : 4.5.1
+        ipython          : 7.6.1
+        ipykernel        : 5.1.1
+        jupyter client   : 5.3.1
+        jupyter lab      : 1.0.2
+        nbconvert        : 5.5.0
+        ipywidgets       : 7.5.0
+        nbformat         : 4.4.0
+        traitlets        : 4.3.2
+
 
 
 ## License
