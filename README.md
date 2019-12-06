@@ -48,15 +48,26 @@ Anaconda ======> https://www.anaconda.com/ </br>
 ### How to Run Notebooks
 You should have jupyter notebooks installed. Easiest way to do this is to download and run anaconda on your machine that way you can get jupyter notebooks plus a ton of other goodies! Alternatively you can use gitpod and just install the requirments from the command line using
 
-  conda install --yes --file requirements.txt
+    conda install --yes --file requirements.txt
 
+This will install the dependencies to your conda enviroment. </br>
 
+:bangbang: If one dependency fails then all will fail. This can happen very rarely. To get around this problem please try =>
+
+    while read requirement; do conda install --yes $requirement; done < requirements.txt
+  
+For further information please refer to =====> https://gist.github.com/luiscape/19d2d73a8c7b59411a2fb73a697f5ed4 
 
 
 ### How to Run Scripts
 
+To run the MNIST webapp you must run the app.py file which is the entry point for the webapp. To run please follow the instructions below 
 
+    export FLASK_APP=app.py
+    
+    flask run
 
+Please note that I personally use a Unix system(Mac) and this is the command I use. This will work on any Unix system(Linux, Mac). For Windows users please refer to the flask documentation.
 
 
 ## Built With
